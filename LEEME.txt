@@ -6,6 +6,7 @@ CONTENIDO
   interior.html  Interior bilingüe ES / EN
   logo/          Logo vectorizado (SVG) y en PNG transparente
   fotos/         Foto del doctor sin fondo y fotos del consultorio tratadas
+  impresion/     Diseño A5 con el QR, listo para imprimir (PDF)
 
 PUBLICAR EN GITHUB PAGES
   1. Subir index.html e interior.html juntos a la raíz del repositorio.
@@ -14,3 +15,7 @@ PUBLICAR EN GITHUB PAGES
 
 Las carpetas logo/ y fotos/ son material de respaldo: la tarjeta
 ya lleva todas las imágenes incrustadas y no las necesita para funcionar.
+
+IMPORTANTE SOBRE EL QR IMPRESO
+  El QR del PDF apunta a https://veneiatech-ctrl.github.io/Dr-Ysmael-Dominguez-G./
+  Si se renombra el repositorio, hay que generar el PDF de nuevo antes de imprimir.
