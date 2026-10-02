@@ -1,0 +1,16 @@
+TARJETA DIGITAL - CENTRO CLÍNICO DE LOS DIENTES
+Dr. Ysmael Domínguez G.
+
+CONTENIDO
+  index.html     Portada animada (se abre primero)
+  interior.html  Interior bilingüe ES / EN
+  logo/          Logo vectorizado (SVG) y en PNG transparente
+  fotos/         Foto del doctor sin fondo y fotos del consultorio tratadas
+
+PUBLICAR EN GITHUB PAGES
+  1. Subir index.html e interior.html juntos a la raíz del repositorio.
+  2. Settings > Pages > Deploy from a branch > main / root.
+  3. El enlace queda: https://USUARIO.github.io/REPOSITORIO/
+
+Las carpetas logo/ y fotos/ son material de respaldo: la tarjeta
+ya lleva todas las imágenes incrustadas y no las necesita para funcionar.
