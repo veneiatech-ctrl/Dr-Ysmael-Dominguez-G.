@@ -185,6 +185,11 @@ h2{font-family:var(--serif);font-weight:600;font-size:clamp(28px,7vw,34px);line-
 .phones a{border-bottom:1px solid var(--linea);padding-bottom:2px}
 
 footer{text-align:center;padding:40px 22px 34px;color:var(--bruma-2);font-size:12px}
+.legal{margin:26px auto 0;max-width:420px;padding-top:18px;border-top:1px solid var(--linea);font-size:10.5px;line-height:1.5;letter-spacing:.03em;color:rgba(168,194,203,.55)}
+.legal p{margin-top:5px;display:flex;align-items:center;justify-content:center;gap:6px;flex-wrap:wrap}
+.legal svg{width:11px;height:11px;flex:none;color:var(--oro);opacity:.85}
+.legal .dev{display:block;margin-top:12px;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:rgba(168,194,203,.5)}
+.legal .dev strong{color:var(--oro);font-weight:600;letter-spacing:.14em}
 footer .emblem{font-family:var(--serif);letter-spacing:.3em;color:var(--oro);font-size:13px;margin-bottom:6px}
 
 /* Aparición al hacer scroll */
@@ -368,6 +373,12 @@ footer .emblem{font-family:var(--serif);letter-spacing:.3em;color:var(--oro);fon
 <footer>
   <div class="emblem">C.C.D.L.D</div>
   Centro Clínico de los Dientes<br>Monagas – Venezuela
+  <div class="legal" lang="en">
+    <p><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5 2.5 3.8v3.9c0 3.2 2.3 5.9 5.5 6.8 3.2-.9 5.5-3.6 5.5-6.8V3.8z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="m5.6 8 1.7 1.7 3.2-3.4" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Licensed dentist · MPPS 12180 · C.O.V member</span></p>
+    <p><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="3.5" y="7" width="9" height="6.5" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M5.5 7V5a2.5 2.5 0 0 1 5 0v2" fill="none" stroke="currentColor" stroke-width="1.3"/></svg><span>Secure HTTPS connection · No tracking · No cookies</span></p>
+    <p>© 2026 Centro Clínico de los Dientes. All rights reserved.</p>
+    <p class="dev">App developed by <strong>Veneiatech</strong> · Germany</p>
+  </div>
 </footer>
 
 <script>
